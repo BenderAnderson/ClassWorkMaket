@@ -1,0 +1,428 @@
+*, html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: white;
+    align-items: center;
+}
+.navMenu{
+    width: 315px;
+    height: 24px;
+}
+
+.navMenu ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.navMenu li{
+    padding-left: 40px;
+    color: black;
+}
+.navMenu li a{
+    color: black;
+    text-decoration: none;
+}
+.navMenu h5{
+    font-family: Helvetica Neue;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+}
+.acme{
+    color: black;
+    text-decoration: none;
+    margin-right: 200px;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.button{
+    margin-right: 50px;
+    background-color: #0065F2;
+    font-family: Helvetica Neue;
+
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+    padding: 10px 20px;   
+}
+.s1{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.contentS1{
+    width: 466px;
+    height: 324px;
+    margin-left: -50px;
+}
+.contentS1 h4{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.contentS1 h1{
+    font-family: Helvetica Neue;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-shadow:  0 2px rgb(44, 44, 44), 
+             -1px -1px 0 hsl(0, 0%, 19%),
+             -1px -1px 1px hsl(0, 0%, 12%),
+             -1px -1px 1px hsl(0, 0%, 7%);
+             margin-top: 10px;
+}
+.form{
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.contentS1 p{
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+#btnAct{
+    width: 129.85px;
+    height: 48px;
+    color: white;
+    background-color: #0065F2;
+}
+#placeholder{
+    width: 336.15px;
+    height: 48px;
+    text-align: left;  
+    background-color: #f2f2f2;  
+
+}
+.contentS1img{
+    width: 100%;
+    height: 380px;
+    margin-left: 100px;
+}
+.s2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.cntC2 h5{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin-top: 60px;
+}
+.cntC2 h1{
+    font-family: Helvetica Neue;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.cntC2 p{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.s3{
+    width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cntS3{
+    width: 445px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.cntS3 h3{
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+}
+.cntS3 p{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 15px;
+}
+.cntS3 p a{
+    text-decoration: none;
+    color: #0065F2;
+}
+.cntBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cntBox h5{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 10px;
+}
+.cntBox p{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 10px;
+}
+.s4{
+    width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cntS4{
+    width: 445px;
+    height: 227px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.cntS4 h3{
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.cntS4 p{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.payNav{
+    width: 100%;
+    height: 35px;
+}
+.payNav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 50px;
+}
+.payNav li{
+    list-style: none;
+}
+.s5{
+    width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cntS5 h3{
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-top: 60px;
+}
+.cntS5 p{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 20px;
+}
+.navCntS5 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 30px auto;
+}
+
+.bg{
+    width: 100%;
+    background: src("./img/bg.png");
+background: no-repeat;
+display: flex ;
+justify-content: center;
+}
+.s6{
+    width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.s6 h4{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 35px;
+}
+.s6 p{
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin-top: 15px;
+}
+.rightCntS6 p a{
+    text-decoration: none;
+    color: #0065F2;
+font-family: Helvetica Neue;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: right;
+
+}
+.leftCntS6 p a{
+    text-decoration: none;
+color: #0065F2;
+font-family: Helvetica Neue;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: right;
+
+}
+.s7{
+    width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.cntS7 p{
+font-family: Helvetica Neue;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 25px;
+}
+.s7nav1 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 30px auto;
+}
+.s7nav1{
+    padding-left: 50px;
+}
+.s7nav2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 30px auto;
+}
+.s7nav2{
+    padding-right: 80px;
+}
+.s7nav3 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 30px auto;
+}
+.s7nav h5{
+font-family: Helvetica Neue;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+}
+
+.s7nav1 li{
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.footer1 p{
+font-family: Helvetica Neue;
+font-size: 14px;
+color: #7a7a78;
+}
+.footer1 a{
+    text-decoration: none;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer2 p{
+    font-family: Helvetica Neue;
+font-size: 14px;
+color: #7a7a78;
+padding-left: 20px;
+}
+.footer2  a{
+text-decoration: none;
+}
+
+.formLast{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+#telegaimg{
+    width: 336.15px;
+    height: 48px;
+    text-align: left;  
+    background-color: #d6d6d6; 
+}
+#imgTelega{
+    width: 35px;
+    height: 35px;
+}
